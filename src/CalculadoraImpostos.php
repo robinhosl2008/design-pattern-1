@@ -2,18 +2,12 @@
 
 namespace Alura\DesignPattern1;
 
+use Alura\DesignPattern1\Imposto\Imposto;
+
 class CalculadoraImpostos
 {
-    public function calcula(Orcamento $orcamento, string $nomeImposto): float
+    public function calcula(Orcamento $orcamento, Imposto $imposto): float
     {
-        switch ($nomeImposto) {
-            case 'ICMS':
-                return $orcamento->valor * 0.1;
-                break;
-            
-            case 'ISS':
-                return $orcamento->valor * 0.06;
-                break;
-        }
+        return $imposto->calculaImposto($orcamento);
     }
 }
