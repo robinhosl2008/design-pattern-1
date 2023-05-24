@@ -10,6 +10,7 @@ use Alura\DesignPattern1\Orcamento;
 
 require_once "./vendor/autoload.php";
 
+// Strategy
 /*
 $calculadora = new CalculadoraImpostos();
 
@@ -19,6 +20,7 @@ $orcamento->valor = 100;
 echo $calculadora->calcula($orcamento, new Iss());
 */
 
+// Chain of Responsability
 $calculadora = new CalculadoraDeDescontos();
 $orcamento = new Orcamento();
 $orcamento->valor = 600;
