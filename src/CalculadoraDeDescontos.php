@@ -14,7 +14,7 @@ class CalculadoraDeDescontos
     {
         $cadeiaDeDescontos = new MaisDeCincoItens(
             new ValorMaiorIgual(
-                new SemDesconto(null)
+                new SemDesconto()
             )
         );
 
