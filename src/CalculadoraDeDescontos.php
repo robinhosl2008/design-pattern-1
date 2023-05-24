@@ -1,19 +1,18 @@
 <?php
 
-namespace Alura\DesignPattern1;
+namespace Alura\DesignPattern;
 
-use Alura\DesignPattern1\Desconto\Desconto;
-use Alura\DesignPattern1\Desconto\MaisDeCincoItens;
-use Alura\DesignPattern1\Desconto\SemDesconto;
-use Alura\DesignPattern1\Desconto\ValorMaiorIgual;
-use Alura\DesignPattern1\Orcamento;
+use Alura\DesignPattern\Descontos\Desconto;
+use Alura\DesignPattern\Descontos\DescontoMaisDe500Reais;
+use Alura\DesignPattern\Descontos\DescontoMaisDe5Itens;
+use Alura\DesignPattern\Descontos\SemDesconto;
 
 class CalculadoraDeDescontos
 {
     public function calculaDescontos(Orcamento $orcamento): float
     {
-        $cadeiaDeDescontos = new MaisDeCincoItens(
-            new ValorMaiorIgual(
+        $cadeiaDeDescontos = new DescontoMaisDe5Itens(
+            new DescontoMaisDe500Reais(
                 new SemDesconto()
             )
         );

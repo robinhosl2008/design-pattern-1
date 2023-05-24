@@ -1,14 +1,7 @@
 {
-    "name": "alura/design-pattern-1",
-    "autoload": {
-        "psr-4": {
-            "Alura\\DesignPattern1\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Robson"
-        }
-    ],
-    "require": {}
+  "autoload": {
+      "psr-4": {
+          "Alura\\DesignPattern\\": "src/"
+      }
+  }
 }
