@@ -1,9 +1,9 @@
 <?php
 
-namespace Alura\DesignPattern;
+namespace Alura\DesignPattern1;
 
-use Alura\DesignPattern\EstadosOrcamento\EmAprovacao;
-use Alura\DesignPattern\EstadosOrcamento\EstadoOrcamento;
+use Alura\DesignPattern1\EstadosOrcamento\EmAprovacao;
+use Alura\DesignPattern1\EstadosOrcamento\EstadoOrcamento;
 
 class Orcamento
 {

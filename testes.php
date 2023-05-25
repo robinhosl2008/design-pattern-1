@@ -1,9 +1,9 @@
 <?php
 
-use Alura\DesignPattern\CalculadoraDeDescontos;
-use Alura\DesignPattern\CalculadoraDeImpostos;
-use Alura\DesignPattern\Impostos\{Icms, Iss};
-use Alura\DesignPattern\Orcamento;
+use Alura\DesignPattern1\CalculadoraDeDescontos;
+use Alura\DesignPattern1\CalculadoraDeImpostos;
+use Alura\DesignPattern1\Impostos\{Icms, Iss};
+use Alura\DesignPattern1\Orcamento;
 
 require 'vendor/autoload.php';
 

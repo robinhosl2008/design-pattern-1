@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\DesignPattern\EstadosOrcamento;
+namespace Alura\DesignPattern1\EstadosOrcamento;
 
-use Alura\DesignPattern\Orcamento;
+use Alura\DesignPattern1\Orcamento;
 
 class Reprovado extends EstadoOrcamento
 {

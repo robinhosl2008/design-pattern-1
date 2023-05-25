@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\DesignPattern\Descontos;
+namespace Alura\DesignPattern1\Descontos;
 
-use Alura\DesignPattern\Orcamento;
+use Alura\DesignPattern1\Orcamento;
 
 class DescontoMaisDe500Reais extends Desconto
 {

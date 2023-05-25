@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\DesignPattern\Impostos;
+namespace Alura\DesignPattern1\Impostos;
 
-use Alura\DesignPattern\Orcamento;
+use Alura\DesignPattern1\Orcamento;
 
 interface Imposto
 {
